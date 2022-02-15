@@ -1,0 +1,119 @@
+* {
+  /* width: 900px; */
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  width: 900px;
+  position: relative;
+  margin: 200px auto;
+}
+.title {
+  background-color: rgb(227, 223, 223);
+  padding: 20px 5px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+.product-container {
+  display: flex;
+}
+
+.product-img img {
+  width: 250px;
+  height: 100%;
+}
+.left-side {
+  padding: 20px 10px;
+  flex: 1;
+}
+.top-left {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+.left-side span {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.right-side {
+  padding: 20px 10px;
+  border-right: 1px solid rgba(244, 241, 241, 0.708);
+  flex: 1;
+}
+.shipping-info {
+  text-align: left;
+  padding-right: 80px;
+  padding-top: 20px 80px;
+}
+/* Colors */
+.colors {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 20px 0px;
+}
+.color-black {
+  background-color: black;
+  height: 30px;
+  width: 30px;
+}
+.color-blue {
+  background-color: blue;
+  height: 30px;
+  width: 30px;
+}
+.color-red {
+  background-color: red;
+  height: 30px;
+  width: 30px;
+}
+.color-yellow {
+  background-color: yellow;
+  height: 30px;
+  width: 30px;
+}
+.color-green {
+  background-color: green;
+  height: 30px;
+  width: 30px;
+}
+.color-brown {
+  background-color: rgba(157, 41, 41, 0.742);
+  height: 30px;
+  width: 30px;
+}
+.product-button {
+  width: 100%;
+  padding: 20px 5px;
+  font-size: 20px;
+  background-color: black;
+  color: aliceblue;
+  border-top: none;
+  border-left: none;
+}
+.product-button:hover {
+  background-color: rgb(227, 223, 223);
+  color: black;
+  border: black solid 1px;
+  font-weight: bold;
+}
+.highlight {
+  background-color: red;
+  height: 20px;
+  width: 60px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  top: 2px;
+  right: 0px;
+  display: inline;
+}
+
+.details-lines {
+  line-height: 30px;
+}
